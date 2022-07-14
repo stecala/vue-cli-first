@@ -22,4 +22,12 @@ export default {
 #app {
   text-align: center;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(155, 247, 162);
+}
 </style>
