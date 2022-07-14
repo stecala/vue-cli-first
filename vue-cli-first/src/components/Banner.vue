@@ -14,11 +14,14 @@ export default {
 
 <style scoped>
     .img-container{
-        width: 100vw;
-        height: 30vh;
+        width: 100%;
+        height: 60vh;
         margin: 40px 0;
     }
     .img-container img{
-        object-fit: cover; 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
     }
 </style>
